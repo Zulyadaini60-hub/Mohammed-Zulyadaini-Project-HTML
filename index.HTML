@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html.Text.Practice</title>
+</head>
+<body>
+    
+    <!-- HEADINGS -->
+     <h1>Level 1 HEADING - Main Title</h1>
+     <h2>Level 2 Heading - Section</h2>
+     <h3>Level 3 Heading - Sub-section</h3>
+     <h4>level 4</h4>
+     <h5>Level 5</h5>
+     <h6>Level 6</h6>
+
+ <hr>
+
+    <!-- PARAGRAPHS -->
+     <h2>Paragraphs</h2>
+     <p>This is a paragraph. It contains a regular text.Browsers add space between paragraph automatically.</p>
+     <p>This is another paragraph. You can write multiple sentences here. HTML ignores extra space and line breaks in the source code.</p>
+
+ <hr>
+
+    <!-- TEXT FORMATTING -->
+     <h2>Text Formatting</h2>
+
+     <p><strong>Strong text</strong> - used for important content (renders as bold).</p>
+     <p><b>Bold text</b> - also bold but less semantic</p>
+     <p><em>Emphasized text</em> - used for stress emphasis (renders as italic).</p>
+     <p><i>Italic text</i> - also italic but less semantic.</p>
+     <p><u>Underlined text</u> - use sparingly as it can confuse with links.</p>
+     <p><mark>Highlighted text</mark> - use to mark or highlight content.</p>
+     <p><small>Small text</small> - for fine printer side notes.</p>
+     <p><del>Deleted text</del> - shows content that has been removed.</p>
+     <p><ins>Inserted text</ins> -shows content that has been added.</p>
+     <p><sub>Subscript</sub> - like H<sub>2</sub>O</p>
+     <p><sup>Superscript</sup> - like E = mc<sup>2</sup></p>
+
+ <hr>
+
+    <!-- QUOTATIONS -->
+     <h2>Quotations</h2>
+
+     <h3>Blockquote</h3>
+     <blockquote>
+         This is a blockquote. It's used for longer quotations that should stand out from the main text. Browsers typically indent it.
+         <br>- Someone Famous
+     </blockquote>
+
+     <h3>Inline Quote</h3>
+     <p>As the saying goes: <q>This is an inline quotation.</q> It uses quote marks automatically.</p>
+
+     <h3>Abbreviation</h3>
+     <p><abbr title="HyperText Markup Language">HTML</abbr> is the standard markup language for web pages.</p>
+       
+     <aside>
+         <details>
+            <p>Hypertext Markup Language</p>
+            <summary>HTML</summary>
+         </details>
+     </aside>
+
+     <h3>Citation</h3>
+     <p><cite>The Great Gatsby</cite> is a novel by F. Scott Fitzgerald.</p>
+
+ <hr>
+
+    <!-- LISTS -->
+     <h2>Lists</h2>
+
+     <h3>Unordered List (bullet points)</h3>
+     <ul>
+        <li>Item one</li>
+        <li>Item two</li>
+        <li>Item three</li>
+        <li>Item four</li>
+     </ul>
+
+     <h3>Ordered List (numbered)</h3>
+     <ol>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+        <li>Fourth item</li>
+     </ol>
+
+     <h3>Nested List</h3>
+     <ul>
+        <li>Fruits
+            <ul>
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Orange</li>
+            </ul>
+        </li>
+
+        <li>Vegetables
+            <ul>
+                <li>Carrot</li>
+                <li>Broccoli</li>
+            </ul>
+        </li>
+     </ul>
+
+     <h3>Description List</h3>
+     <dl>
+        <dt>HTML</dt>
+        <dd>Hypertext Markup Language - the structure of webpages</dd>
+
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets - the styling of web pages</dd>
+
+        <dt>JavaScript</dt>
+        <dd>A programming language that adds interactivity to web pages</dd>
+     </dl>
+
+ <hr>
+
+    <!-- CODE / PRE -->
+     <h2>Code and Preformatted Text</h2>
+
+     <h3>Inline Code</h3>
+     <p>Use <code>&lt;p&gt;</code> for paragraphs and <code>&lt;h1&gt;</code> for headings.</p>
+
+     <h3>Code Block</h3>
+     <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+        &lt;head&gt;
+           &lt;meta charset="UTF-8"&GT;
+           &lt;;title&gt;My Page&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+          &lt;h1&gt;Hello World&lt;/h1&gt;
+          &lt;p&gt;This is a paragraph.&lt;/p&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+
+     </pre>
+
+     <p><kbd>Ctrl</kbd>+<kbd>c</kbd> to copy, <kbd>Ctrl</kbd>+<kbd>v</kbd> to paste.</p>
+
+ <hr>
+
+    <!-- LINK SECTION (EXPANDED) -->
+     <h2>Links</h2>    
+     <h3>Basic Links</h3>
+        <p>This is a <a href="#">link to nowhere</a>(placeholder)</p>
+        <p>This is a <a href="#" target="_blank">link that opens in a new tab</a>.</p>
+         
+     <h3>Links to Real Websites</h3>
+     <ul>
+        <li><a href="https://www.google.com" target="_blank">Google</a></li>
+        <li><a href="https://www.youtube.com" target="_blank">Youtube</a></li>
+        <li><a href="https://www.wikipedia.org" target="_blank">Wikipedia</a></li>
+        <li><a href="https://www.github.com" target="_blank">GitHub</a></li>
+        <li><a href="https://www.stackoverflow.com" target="_blank">Stack Overflow</a></li>
+     </ul>
+
+     <h3>Email Links</h3>
+     <p>Send an email to: <a href="mailto:example@email.com">example@email.com</a></p>
+     <p>Email with subject: <a href="mailto:example2email.com?subject=Hello%20from%20HTML">Click to email</a></p>
+
+     <h3>Phone Links</h3>
+     <p>Call us: <a href="tel:+1234567890">+1(234)567-890</a></p>
+
+     <h3>Links with the same page(Anchors)</h3>
+     <ul>
+        <li><a href="#top">Go to Top</a></li>
+        <li><a href="#paragraphs">Go to Paragraphs Section</a></li>
+        <li><a href="#lists">Go to Lists Section</a></li>
+        <li><a href="#buttons">Go to Buttons Section</a></li>
+        <li><a href="#tables">Go to Images Section</a></li>
+        <li><a href="#images">Go to Images Section</a></li>
+        <li><a href="#videos">Go to Videos Section</a></li>
+     </ul>
+
+     <h3>Download Links</h3>
+     <p><a href="#" download="myfile.txt">Download this file(placeholder)</a></p>
+     <p><a href="#" download="myfile.txt">Download as "myfile.txt</a></p>
+
+     <h3>Image as Link</h3>
+     <p>Click the image below to visit a website(image placeholder):</p>
+     <a href="https://www.google.com" target="_blank">
+        <img src="img/Capture.PNG" alt="Clickable image placeholder">
+     </a> 
+        
+     <h3>Link with Title Attribute</h3>
+     <p><a href="#" title="This is a tooltip that appears on hover">Hover over me</a>to see the tooltip</p>
+     
+    <!-- BUTTON SECTION (EXPANDED) -->
+     <h2 id="buttons">Buttons</h2>
+
+     <h3>Basic Buttons(with type)</h3>
+     <button type="button">Click Me</button>
+     <button type="submit">Submit</button>
+     <button type="reset">Reset</button>
+
+     <h3>Buttons with Different Text</h3>
+     <button>Save</button>
+     <button>Cancel</button>
+     <button>Delete</button>
+     <button>Edit</button>
+     <button>Update</button>
+     <button>Create</button>
+     <button>Close</button>
+     <button>Open</button>
+
+     <h3>Disabled Buttons</h3>
+     <button disabled>Disabled Button</button>
+     <button type="button" disabled>Can't Click Me</button>
+
+     <h3>Form Buttons</h3>
+     <button onclick="alert('Hello! You clicked the button.')">Click for Alert</button>
+     <button onclick="console.log('Button Clicked!')">Click to Console</button>
+     <button onclick="document.body.style.backgroundColor='blue'">Change Background</button>
+
+     <h3>Link Styled as Button</h3>
+     <a href="#" onclick="alert('Link clicked!');return false;">Clickable Link as Button</a>
+
+     <h3>Form Button</h3>
+     <form action="#" method="get">
+        <p>Name: <input type="text" name="name" placeholder="Enter name" ></p>
+        <button type="submit">Submit Form</button>
+        <button type="reset">Reset Form</button>
+     </form>
+
+     <h3>Button with Name Attribute</h3>
+     <button name="action" value="save">Save with Name</button>
+     <button name="action" value="delete">Delete with Name</button>
+
+     <h3>Autofocus Button</h3>
+     <button autofocus>I am focused on page</button>
+
+     <h3>Button with Tooltip</h3>
+     <button title="This is a tooltip for the button">Hover over me</button>
+
+     <h3>Buttons with Icons(Unicode/Text)</h3>
+     <button>&#9734; Favorite</button>
+     <button>&#9829; Like</button>
+     <button>&#128077; Thumbs Up</button>
+     <button>&#8635; Refresh</button>
+     <button>&#9998; Edit</button>
+     <button>&#128465; Delete</button>
+     <button>&#128229; Download</button>
+     <button>&#128228; Upload</button>
+
+     <h3>Button Group (Inline)</h3>
+     <button>Save</button><button>Cancel</button><button>Delete</button>
+
+     <h3>Large Text Button</h3>
+     <button style="font-size: 20px; padding: 10px 20px;">Big Button</button>
+     <button style="font-size: 12px; padding: 5px 10px;">Small Button</button>
+
+     <h3>Button with Different Types</h3>
+     <button type="button">Button</button>
+     <input type="button" value="Input Button">
+     <input type="submit" value="Submit Input">
+     <input type="reset" value="Reset Input">
+
+     <h3>Button with Value Attribute</h3>
+     <button value="some value">Button with Value</button>
+
+ <hr>
+
+    <!-- TABLES SECTION -->
+     <h2 id="tables">Tables</h2>
+     <h3>Basic Table Structure</h3>
+     <p>Tables use these tags:</p>
+     <ul>
+        <li><code>&lt;table&gt;</code> - creates the table</li>
+        <li><code>&lt;tr&gt;</code> - table row</li>
+        <li><code>&lt;th&gt;</code> - table header cell (bold,centered)</li>
+        <li><code>&lt;td&gt;</code> - table data cell (regular cell)</li>           
+     </ul>
+
+     <h3>Simple Table</h3>
+     <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+
+        <tr>
+            <td>John</td>
+            <td>25</td>
+            <td>New York</td>
+        </tr>
+
+        <tr>
+            <td>Sarah</td> 
+            <td>30</td>
+            <td>London</td>
+        </tr>
+
+        <tr>
+            <td>Mike</td>
+            <td>28</td>
+            <td>Paris</td>
+        </tr>
+     </table>
+
+     <h3>Table with Caption</h3>
+     <table border="1">
+     <caption>Employee Directory</caption>
+        <tr>
+            <th>ID</th>    
+            <th>Name</th> 
+            <th>Department</th>  
+        </tr>
+
+        <tr>
+            <td>001</td>
+            <td>Alice Johnson</td>
+            <td>Marketing</td>               
+        </tr>
+
+        <tr>
+            <td>002</td>
+            <td>Bob Smith</td>
+            <td>IT</td>
+        </tr>
+
+        <tr>
+            <td>003</td>
+            <td>Carol White</td>
+            <td>HR</td>
+        </tr>
+     </table>
+
+     <h3>Table with colspan(merge columns)</h3>
+     <table border="1">
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Contact Info</th>
+        </tr>
+
+        <tr>
+            <td>John Doe</td>
+            <td>john@email.com</td>
+            <td>555-1234</td>
+        </tr>
+
+        <tr>
+            <td>Jane Smith</td>
+            <td>jane@email.com</td>
+            <td>555-5678</td>
+        </tr>            
+     </table>
+
+     <h3>Table with rowspan (merge rows)</h3>
+     <table border="1">
+        <tr>
+            <th>Department</th>
+            <th>Employee</th>
+            <th>Role</th>
+        </tr>
+
+        <tr>
+            <td rowspan="2">IT</td>
+            <td>David Chen</td>
+            <td>Developer</td>
+        </tr>
+               
+        <tr>
+            <td>Lisa Park</td>
+            <td>Analyst</td>
+        </tr>
+
+        <tr>
+            <td>HR</td>
+            <td>Emma Vision</td>
+            <td>Manager</td>
+        </tr>
+     </table>
+
+         <h3>Table with colspan and rowspan combined</h3>
+         <table border="1">
+            <tr>
+                <th colspan="3">Student Grades</th>
+            </tr>
+
+            <tr>
+                <th rowspan="2">Student</th>
+                <th colspan="2">Subjects</th>
+            </tr>
+
+            <tr>
+                <th>Math</th>
+                <th>Science</th>
+            </tr>
+
+            <tr>
+                <td>Tom</td>
+                <td>85</td>
+                <td>90</td>
+            </tr>
+
+            <tr>
+                <td>Mary</td>
+                <td>78</td>
+                <td>92</td>
+            </tr>
+         </table>
+
+         <h3>Table with thead, tbody, tfoot</h3>
+         <table border="1">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Laptop</td>
+                    <td>$999</td>
+                    <td>5</td>
+                </tr>
+
+                <tr>
+                    <td>Mouse</td>
+                    <td>$25</td>
+                    <td>20</td>
+                </tr>
+
+                <tr>
+                    <td>keyboard</td>
+                    <td>$75</td>
+                    <td>10</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>Total Items:</td>
+                    <td colspan="2">35</td>
+                </tr>
+            </tfoot>
+         </table>
+
+         <h3>Table with Cell Padding and Spacing</h3>
+         <p>Using cellpadding (space inside cells) and cellspacing(space between cells)</p>
+         <table border="1" cellpadding="10" cellspacing="5">
+            <tr>
+                <th>Name</th>
+                <th>Phone</th>
+            </tr>
+
+            <tr>
+                <td>Anna</td>
+                <td>555-1111</td>
+            </tr>
+
+            <tr>
+                <td>Mark</td>
+                <td>555-2222</td>
+            </tr>
+         </table>
+
+         <h3>Table with Width and Height</h3>
+         <table border="1" width="400" height="150">
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+            </tr>
+
+            <tr>
+                <td>Row 1, Cell 1</td>
+                <td>Row 1, Cell 2</td>
+            </tr>
+
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+            </tr>
+         </table>
+
+         <h3 >Table with Alignment</h3>
+         <table border="1" width="400">
+            <tr>
+                <th align="left">Left Aligned Header</th>
+                <th align="center">Center Aligned Header</th>
+                <th align="right">Right Aligned Header</th>
+            </tr>
+
+            <tr>
+                <td align="left">Left</td>
+                <td align="center">Center</td>
+                <td align="right">Right</td>
+            </tr>
+         </table>
+
+         <h3>Nested Table (table inside a table)</h3>
+         <table border="1">
+            <tr>
+                <th>Main Table</th>
+                <th>Nested Table</th>
+            </tr>
+
+            <tr>
+                <td>Row 1</td>
+                <td>
+                    <table border="1">
+                        <tr>
+                            <td>Inner Row 1</td>
+                            <td>Inner row 1</td>
+                        </tr>
+
+                        <tr>
+                            <td>Inner Row 2</td>
+                            <td>Inner Row 2</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+         </table>
+         
+x          <h3>Table with Background Color<h3>
+         <table border="1" bgcolor="#f0f0f0">
+            <tr bgcolor="#cccccc">
+                <td>Color</td>
+                <td>Hex Code</td>
+            </tr>
+
+            <tr bgcolor="#ff9999">
+                <td>Red</td>
+                <td>#FFOOOO</td>
+            </tr>
+
+            <tr bgcolor="#99ff99">
+                <td>Green</td>
+                <td>#OOFFOO</td>
+            </tr>
+
+            <tr bgcolor="9999ff">
+                <td>Blue</td>
+                <td>#OOOOFF</td>
+            </tr>
+        </table>
+
+        <h3>Table with Border Collapse Examples</h3>
+        <p>Note: border collapse is CSS, but shown here for understanding</p>
+        <table border="1" style="border-collapse: collapse;">
+            <tr>
+                <th>Product</th>
+                <th>Price</th>
+            </tr>
+
+            <tr>
+                <td>Apple</td>
+                <td>$1.00</td>
+            </tr>
+
+            <tr>
+                <td>Banana</td>
+                <td>$0.50</td>
+            </tr>
+        </table>
+
+        <h3>Empty Table Collapse</h3>
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+
+            <tr>
+                <td>John</td>
+                <td></td>
+                <td>NY</td>
+            </tr>
+
+            <tr>
+                <td>Sarah</td>
+                <td>30</td>
+                <td></td>
+            </tr>
+        </table>
+
+        <h3>Table with Mixed Content</h3>
+        <table border="1">
+            <tr>
+                <th>Image</th>
+                <th>Description</th>
+                <th>Link</th>
+            </tr>
+
+            <tr>
+                <td><img src="img/davinci.PNG" width="90" height="60" alt="placeholder"></td>
+                <td>Davinci Resolve</td>
+                <td><a href="https://www.davincidb.com/" target="_blank">View</a></td>
+            </tr>
+
+            <tr>
+                <td><img src="img/youtube.PNG" width="90" height="60" alt="placeholder"></td>
+                <td>Another image</td>
+                <td><a href="https://www.youtube.com/" target="_blank">View</a></td>
+            </tr>
+        </table>
+
+        <hr>
+
+    <!-- IMAGE SECTION -->
+     <h2 id="images">Images</h2>
+
+     <h3>Basic Images Tag</h3>
+     <p>The <code>&lt;img&gt;</code> tag is used to display images. It requires the <code>&lt;src&gt;</code> attribute(source) and <code>&lt;alt&gt;</code> attribute(alternative text).</p>
+  
+     <h4>Example 1: Basic Image</h4>
+     <img src="https://via.placeholder.com/300x200/0066cc/ffffff?text=Sample+Image" alt="Sample placeholder image">
+
+     <h3>Image with Width and Height</h3>
+     <p>You can set the size of images using <code>&lt;width&gt;</code> and <code>&lt;height&gt;</code> attributes.</p>
+
+     <h4>Example 2: Different Sizes</h4>
+     <p>Original size</p>
+     <img src="https://via.placeholder.com/300x200/ff6b6b/ffffff?text=300x200" alt="300x200 image">
+     <br>
+     <p>Width 150px</p>
+     <img src="https://via.placeholder.com/300x200/ff6b6b/ffffff?text=150px" alt="150px wide" width="150">
+     <br>
+     <p>Width 100px, Height 150px</p>
+     <img src="https://via.placeholder.com/300x200/ff6b6b/ffffff?text=100x150" alt="100x150 image" width="100" height="150">
+
+     <h3>Image Alignment</h3>
+     <p>Images can be aligned using the <code>&lt;align&gt;</code> attribute.</p>
+
+     <h4>Example 3: Align Left</h4>
+     <img src="https://via.placeholder.com/100x100/4ecdc4/ffffff?text=Left" alt="Left Aligned" align="left">
+
+     <p>This text wraps around the image because it's aligned to the left. The image will float to the left side of the page.</p>
+
+     <br clear="all">
+
+     <h4>Example 4: Align Right</h4>
+     <img src="https://via.placeholder.com/100x100/ff6b6b/ffffff?text=Right" alt="Right aligned" align="right">
+     <p>This text wraps around the image because it's aligned to the right. The image will float to the right side of the page.</p>
+     <br clear="all">
+
+     <h4>Example 5: Align Middle</h4>
+     <p>Text with <img src="https://via.placeholder.com/30x30/ffe66d/OOOOOO?text=M" alt="Middle aligned" align="middle"> a middle aligned image.</p>
+
+     <p>Text with <img src="https://via.placeholder.com/30x30/ffe66d/OOOOOO?text=T" alt="Top aligned" align="top">a top-aligned image.</p>
+
+     <p>Text with <img src="https://via.placeholder.com/30x30/ffe66d/OOOOOO?text=B" alt="Bottom aligned" align="bottom">a bottom-aligned image</p>
+
+     <h3>Image with Border</h3>
+     <img src="https://via.placeholder.com/200x100/45b7d1/ffffff?text=Border" alt="Image with border" border="5">
+
+     <h3>Image with Tooltip (Title)</h3>
+     <img src="https://via.placeholder.com/200x100/ff6b6b/ffffff?text=Hover+Me" alt="Hover Image" title="This is a tooltip! Hover over me.">
+
+     <h3>Image as Link</h3>
+     <a href="https://www.google.com" target="_blank">
+        <img src="https://via.placeholder.com/200x100/4ecdc4/ffffff?text=Click+Me" alt="Clickable Image Link">
+     </a>
+
+     <h3>Image Map (Clickable Image)</h3>
+     <p>An image map allows Different part of an image to be clickable links.</p>
+
+     <img src="https://via.placeholder.com/400x200/2c3e50/ffffff?text=Image+Map+Example" alt="Image map example" usemap="#examplemap" border="1">
+
+     <map name="examplemap">
+        <area shape="rect" coords="0,0,200,100" href="https://www.google.com" target="_blank" alt="Google">
+        <area shape="rect" coords="200,0,400,100" href="https://www.youtube.com" target="_blank" alt="Youtube">
+        <area shape="rect" coords="0,100,200,200" href="https://www.github.com" target="_blank" alt="GitHub">
+        <area shape="rect" coords="200,100,400,200" href="https://www.wikipedia.org" target="_blank" alt="Wikipedia">
+     </map>
+     <p>Click different areas of the image  above to visit different websites.</p>
+
+     <h3>Image from Different Sources</h3>
+     <h4>Local Image (if you have an image file):</h4>
+     <p><code>&lt;img src="myimage.jpg" alt="My Local Image"&gt;</code></p>
+
+     <h4>Image from URL</h4>
+     <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_256.png" alt="HTML5 Logo" width="100">
+
+     <h4>Image from Placeholder Service:</h4>
+     <img src="https://via.placeholder.com/150x150/ff6b6b/ffffff?text=Custom" alt="Custom placeholder">
+
+     <h4>Image with Different Formats:</h4>
+     <ul>
+        <li>JPEG: <img src="https://via.placeholder.com/100x100/45b7d1/ffffff?text=JPEG" alt="JPEG"></li>
+        <li>PNG: <img src="https://via.placeholder.com/100x100/4ecdc4/ffffff?text=PNG" alt="PNG"></li>
+        <li>GIF: <img src="https://via.placeholder.com/100x100/ffe66d/OOOOOO?text=GIF" alt="GIF"></li>
+        <li>SVG: <img src="https://via.placeholder.com/100x100/ff6b6b/ffffff?text=SVG" alt="SVG"></li>
+     </ul>
+
+     <h3>Responsive Image(using style)</h3>
+     <p>Note: This uses style attribute to make the image responsive to screen size.</p>
+     <img src="https://via.placeholder.com/600x200/2c3e50/ffffff?text=Responsive+Image" alt="Responsive image" style="max-width:100%;height: auto;">
+    </body>    
+</html>
