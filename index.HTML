@@ -596,7 +596,7 @@ x          <h3>Table with Background Color<h3>
             <tr>
                 <td><img src="img/davinci.PNG" width="90" height="60" alt="placeholder"></td>
                 <td>Davinci Resolve</td>
-                <td><a href="https://www.davincidb.com/" target="_blank">View</a></td>
+                <td><a href="https://www.blackmagicdesign.com/products/davinci-resolve" target="_blank">View</a></td>
             </tr>
 
             <tr>
@@ -697,5 +697,113 @@ x          <h3>Table with Background Color<h3>
      <h3>Responsive Image(using style)</h3>
      <p>Note: This uses style attribute to make the image responsive to screen size.</p>
      <img src="https://via.placeholder.com/600x200/2c3e50/ffffff?text=Responsive+Image" alt="Responsive image" style="max-width:100%;height: auto;">
+
+     <h3>Background Image in Div</h3>
+     <p>Using the <code>&lt;style&gt;</code> attribute to add a background image to a div:</p>
+
+     <div style="background-image:
+     url(img/wallpaper.PNG); width: 400; height: 200; padding: 20; color: white; background-size: cover;">
+     <p><strong>This div has a background image!</strong></p>
+     <p>You can put a text over it.</p>
+    </div>
+
+    <hr>
+
+    <!-- Videos Section -->
+     <h2 id="videos">Videos</h2>
+     <h3>Basic Video Tag</h3>
+     <p>The <code>&lt;video&gt;</code> tag is used to embed video files. Use <code>controls</code> attribute to show play/pause buttons.</p>
+
+     <h4>Example 1: Basic Videos with Controls</h4>
+     <video controls width="400">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        <source src="https://www.w3shools.com/html/mov_bbb.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+     </video>
+     <h3>Video with Different Attributes</h3>
+     <h4>Example 2:Autoplay(muted)</h4>
+     <video controls autoplay muted width="400">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+     </video>
+     <p><em>Note: Autoplay often requires the 'muted' attribute to work in modern browsers.</em></p>
+      
+     <h4>Example 4: Looping Video</h4>
+     <video controls loop width="400">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video.mp4">
+        Your browser does not support the video tag.
+     </video>
+
+     <h4>Example 5: Video with Width and Height</h4>
+     <video controls width="300" height="200">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+     </video>
+
+     <h3>Video with Preload Attribute</h3>
+     <p><strong>Preload="none":</strong> Doesn't load the video until user clicks play.</p>
+     <video controls preload="none" width="400">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+     </video>
+
+     <p><strong>Preload="metadata":</strong>Loads video metadata (duration,dimensions)</p>
+     <video controls preload="metadata" width="400">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+     </video>
+
+     <h3>Video with Multiple Sources</h3>
+     <p>Provide multiple formats for better browser compatibility:</p>
+     <video controls width="400">
+        <source src="https://www.w3schools.com/html/mov_bbg.mp4" type="video/mp4">
+        <source src="https://www.w3schools.com/html/mov_bbg.ogg" type="video/ogg">
+        <source src="https://www.w3schools.com/html/mov_bbg.webm" type="video/webm">
+        Your browser does not support the video tag.
+     </video>
+
+     <h3>Video with Custom Controls (using buttons)</h3>
+     <video controls id="myVideo" width="400">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+     </video>
+
+     <br>
+
+     <button onclick="document.getElementById('myVideo').play()">Play</button>
+     <button onclick="document.getElementById('myVideo').pause()">Pause</button>
+     <button onclick="document.getElementById('myVideo').volume=0.5">50% Volume</button>
+     <button onclick="document.getElementById('myVideo').volume=1">100% Volume</button>
+     <button onclick="document.getElementById('myVideo').currentTime=0">Reset</button>
+
+     <h3>Embedding Youtube Videos</h3>
+     <p>Use the <code>&lt;iframe&gt;</code> tag to embed YouTube videos.</p>
+
+     <h4>   Example 1: Basic Youtube Embed</h4>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+     <h4>Example 2: YouTube with Start Time</h4>
+     <iframe width="560" height="315" src="https:www.youtube.com/embed/tgbNymZ7vqY?start=10" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+      <p>Starts at 10 seconds.</p>
+
+      <h4>Example 3: YouTube with Autoplay</h4>
+      <iframe width="560" height="315" src="https:www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1" title="Youtube video player" frameborder="0" allow="autoplay: encrypted-media" allowfullscreen></iframe>
+      <p><em>Note: Autoplay is muted to comply with browser policies.</em></p>
+
+      <h4>Example 4: YouTube with Controls Disabled</h4>
+      <iframe width="560" height="315" src="https:www.youtube.com/embed/tgbNymZ7vqY?controls=9" title="Youtube video player" frameborder="0" allowfullscreen></iframe>
+
+      <h3>Embedding Vimeo Videos</h3>
+      <iframe src="https://player.vimeo.com/video/76979871" width="560" height="315" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+      <h3>Video with Subtitles (Track)</h3>
+      <video controls width="400">
+        <source src="https://www.w3schools.com/html/mov_bbg.mp4" type="video/mp4">
+        <track src="subtitles.vtt" kind="subtitles" srclang="en" label="English">
+        Your browser does not support the video tag.
+      </video>
+      <p><em>Note: You need an actual .vtt subtitle file for this to work.</em></p>
+
+      <hr>
+      
     </body>    
 </html>
