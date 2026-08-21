@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 1. Basic Image -->
+     <h2>Basic Image</h2>
+    <img src="img/Nature attracts_.jpg" alt="Sunny Beach">
+
+    <hr>
+
+<!-- 2. Image with Width and Height -->
+<h2>Image with Width and Height</h2>
+<p>Width: 300px</p>
+    <img src="img/Nature attracts_.jpg" alt="Sunny Beach" width="300">
+    
+<p>Width: 150px</p>
+    <img src="img/Nature attracts_.jpg" alt="Sunny Beach" width="150">
+
+<p>Width: 100px, Height: 150px</p>
+    <img src="img/Nature attracts_.jpg" alt="Beautiful Nature" width="100px" height="150px">
+
+    <hr>
+
+    <!-- 3. Image Alignment -->
+     <h2>Image Alignment</h2>
+<img src="img/Nature attracts_.jpg" width="90" height="60" alt="Left Aligned" align="left">
+<br clear="all">
+<img src="img/Nature attracts_.jpg" width="90" height="60" alt="Right Aligned" align="right">
+<br clear="all">
+<p>Middle Alignment: <img src="img/Nature attracts_.jpg" width="90" height="60" alt="Middle Aligned" align="middle"> Tis text is aligned to the middle</p>
+<p><img src="img/davinci.PNG" width="90" height="60" alt="Top Aligned" align="top"> This text is aligned to the top. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, ex, vero blanditiis, magnam eum eius veniam at modi eos facere rem itaque in nemo consequatur placeat ducimus aspernatur dolores minima!</p>
+
+</body>
+</html>
